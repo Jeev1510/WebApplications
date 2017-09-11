@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Let's Port Now", "..\..\..\Desktop\Let's Port Now", "{05E52AAE-37BE-4DDF-98DE-27C9BF4C95DD}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Let's Port Now"
+		Debug.AspNetCompiler.PhysicalPath = "Let's Port Now\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Let's Port Now\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Let's Port Now"
+		Release.AspNetCompiler.PhysicalPath = "Let's Port Now\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Let's Port Now\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61481"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A09E4248-279C-48B1-B1CC-35FAE10C155A}"
+	ProjectSection(SolutionItems) = preProject
+		Let's Port Now.vsmdi = Let's Port Now.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2010.ad.infosys.com:8080/tfs/mstracktpc
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ..\\..\\..\\Desktop\\Let's\u0020Port\u0020Now
+		SccProjectName1 = Let's\u0020Port\u0020Now
+		SccLocalPath1 = D:\\Desktop\\Let's\u0020Port\u0020Now\\
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Let's Port Now.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E52AAE-37BE-4DDF-98DE-27C9BF4C95DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E52AAE-37BE-4DDF-98DE-27C9BF4C95DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E52AAE-37BE-4DDF-98DE-27C9BF4C95DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E52AAE-37BE-4DDF-98DE-27C9BF4C95DD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

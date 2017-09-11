@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LetsPortNowMaster.master.cs" Inherits="LetsPortNowMaster" EnableTheming="true"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+      <script type="text/javascript">
+          javascript: window.history.forward(1);
+    </script>
+    <link href="App_Themes/LetsPortNowTheme/LetsPortNowStyleSheet.css" rel="stylesheet"
+        type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    <style type="text/css">
+        .style1
+        {
+            width: 200px;
+            height: 33px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="header">
+            
+            <div class="logout-container">
+                <table width="100%">
+                    <tr>
+                        <td>Welcome <asp:Label ID="lblName" runat="server" Text=""></asp:Label> !
+                            <asp:HyperLink ID="hplLogout" runat="server" 
+                                NavigateUrl="~/Logout.aspx">Logout</asp:HyperLink>
+                            <asp:HyperLink ID="hplChangePassword" runat="server" 
+                                NavigateUrl="~/ChangePassword.aspx">Change Password</asp:HyperLink>
+                        </td>
+                        <td class="right"><asp:Label ID="lblDate" runat="server" Text="" CssClass="right"></asp:Label></td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+            <div class="logo">
+                <img alt="Logo" class="style1" src="Logo.png" /></div>
+        <%--<div class="middle-container">
+          
+            <asp:SiteMapPath ID="stmSiteMap" runat="server">
+            </asp:SiteMapPath>
+        </div>--%>
+            
+            <%-- Tabs --%>
+            <div id="centeredmenu">
+                <ul>
+                <%-- Admin --%>
+                    <li id="aHome" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/AdminHome.aspx") %>">Home</a> </li>
+                    <li id="aApprovals" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/ApproveServiceProvider.aspx") %>">Approval</a> </li>
+                    <li id="aReports" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/AdminReports.aspx") %>">Reports</a> </li>
+
+                <%-- Service Provider --%>
+                    <li id="sHome" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/ServiceProviderHome.aspx") %>">Home</a> </li>
+                    <li id="sPortingRequests" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/PortingRequests.aspx") %>">Porting Requests</a> </li>
+                    <li id="sPlans" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPLaunchModifyActivateDeacticatePrepaid.aspx") %>">Plans</a>
+                        <ul>
+                        <li id="sPrepaid" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPLaunchModifyActivateDeacticatePrepaid.aspx") %>">Prepaid</a></li>
+                        <li id="sPostpaid" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPLaunchModifyActivateDeavctivaetPostPaid.aspx") %>">Postpaid</a></li>
+                        </ul>
+                   
+                    </li>
+
+                    <li id="sOffers" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPLMADeOffers.aspx") %>">Offers</a> </li>
+                    <li id="sView" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPViewPlansAndOffers.aspx") %>">View</a> </li>
+                    <li id="sReports" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/SPReports.aspx") %>">Reports</a> </li>
+                     <li id="sFeedback" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/ViewFeedback.aspx") %>">Feedback</a> </li>
+
+                <%-- Customer --%>
+                     <li id="cHome" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/CustomerHome.aspx") %>">Home</a> </li>
+                     <li id="cRequests" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/CustomerMyRequests.aspx") %>">My Requests</a> </li>
+                     <li id="cView" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/CustomerViewPlan.aspx") %>">View</a> </li>
+                     <li id="cCompare" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/CustomerComparePlans.aspx") %>">Compare Plans</a> </li>
+                      <li id="cFeedback" runat="server" class="active"><a href="<%=Page.ResolveUrl("~/GiveFeedback.aspx") %>">Feedback</a> </li>
+                     
+                </ul>
+            
+            </div>
+        </div>
+        <div class="clear"></div>
+            <div class = "middle-container">
+             <asp:ContentPlaceHolder ID="cphMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+           
+            
+        <div class="footer">Copyright of Infosys Ltd</div>
+        
+    </div>
+    </form>
+</body>
+</html>

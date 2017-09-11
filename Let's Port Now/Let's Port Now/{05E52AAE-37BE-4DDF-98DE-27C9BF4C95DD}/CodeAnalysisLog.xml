@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Namespaces>
+  <Namespace Name="__ASP">
+   <Messages>
+    <Message TypeName="Prefix_CompanyName" Category="Infosys.Naming" CheckId="IN0003" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+     <Issue Certainty="99" Level="Warning">Namespace names should begin with the company name eg. 'Infosys.ProjectName'</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ASP">
+   <Messages>
+    <Message TypeName="Prefix_CompanyName" Category="Infosys.Naming" CheckId="IN0003" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+     <Issue Certainty="99" Level="Warning">Namespace names should begin with the company name eg. 'Infosys.ProjectName'</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Theme_Images.dll">
+   <Modules>
+    <Module Name="app_theme_images.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="Images" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__controlSkins" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__controlSkins" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__controlSkins', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__linkedStyleSheets" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__linkedStyleSheets" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__linkedStyleSheets', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LinkedStyleSheets" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_LinkedStyleSheets()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="Array" Category="Infosys.InterfaceImplementation" CheckId="IN0073" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Warning" Path="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\Temporary ASP.NET Files\let's port now\c4cd1c1d\a569bf4e" File="App_Theme_Images.0.vb" Line="64">Method 'get_LinkedStyleSheets' should not return Array .</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Theme_LetsPortNowTheme.dll">
+   <Modules>
+    <Module Name="app_theme_letsportnowtheme.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="LetsPortNowTheme" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__BuildControl__control2_skinKey" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__BuildControl__control2_skinKey" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__BuildControl__control2_skinKey', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__BuildControl__control3_skinKey" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__BuildControl__control3_skinKey" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__BuildControl__control3_skinKey', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__controlSkins" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__controlSkins" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__controlSkins', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__linkedStyleSheets" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__linkedStyleSheets" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__linkedStyleSheets', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Web_1jcrtf2h.dll">
+   <Modules>
+    <Module Name="app_web_1jcrtf2h.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="default_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="letsportnowcommonmaster_master" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__Template_cphMainContent" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__Template_cphMainContent" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__Template_cphMainContent', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__Template_head" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__Template_head" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__Template_head', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="letsportnowmaster_master" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__Template_cphMainContent" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__Template_cphMainContent" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__Template_cphMainContent', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__Template_head" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__Template_head" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__Template_head', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Web_1z5gibij.dll">
+   <Modules>
+    <Module Name="app_web_1z5gibij.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="accessdenied_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="changepassword_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="customerviewplan_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="forgotpassword_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="givefeedback_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="loginpage_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="makepayment_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="splaunchmodifyactivatedeacticateprepaid_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Web_4b4j4pjk.dll">
+   <Modules>
+    <Module Name="app_web_4b4j4pjk.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="adminreports_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="customercompareplans_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="error_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="portingrequests_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="registration_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="splmadeoffers_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="spreports_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Web_vc5ptxng.dll">
+   <Modules>
+    <Module Name="app_web_vc5ptxng.dll">
+     <Namespaces>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="serviceproviderhome_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\jeevitha_meyyappan.ITLINFOSYS\AppData\Local\Temp\tmpCF4.tmp.cadir\bin\App_Web_zsp1boin.dll">
+   <Modules>
+    <Module Name="app_web_zsp1boin.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="CustomerHome" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#dt" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'CustomerHome.dt' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ASP">
+       <Types>
+        <Type Name="adminhome_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="approveserviceprovider_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="customerhome_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="customermyrequests_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="default3_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="logout_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="online_porting_form_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="splaunchmodifyactivatedeavctivaetpostpaid_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="spviewplansandoffers_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="viewfeedback_aspx" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#__fileDependencies" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__fileDependencies" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__fileDependencies', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__initialized" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__initialized" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__initialized', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#__stringResource" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="__stringResource" TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064" Status="Active" Created="2012-01-26 17:28:30Z" FixCategory="NonBreaking">
+             <Issue Certainty="99" Level="Warning">Field names,'__stringResource', should not begin with names like 'g_' or 's_'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Array" Category="Infosys.InterfaceImplementation" CheckId="IN0073">
+   <Name>Do not return arrays as the internal instances of the arrays can be changed by the calling code</Name>
+   <Description>Do not return arrays as the internal instances of the arrays can be changed by the calling code</Description>
+   <Resolution Name="Default">Method '{0}' should not return Array .</Resolution>
+   <Owner>Tools Group</Owner>
+   <Url>http://172.25.103.130/Pride/aspx/PrideDMSDownload.aspx?Docid=QSD-REF-7017</Url>
+   <Email>Tools_deployment@infosys.com</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="customfxcoprules.dll" Version="1.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Prefix_CompanyName" Category="Infosys.Naming" CheckId="IN0003">
+   <Name>Prefix namespace names with the company name</Name>
+   <Description>Prefix namespace names with the company name or well-established brand to avoid the possibility of two published namespaces having the same name</Description>
+   <Resolution Name="Default">Namespace names should begin with the company name eg. 'Infosys.ProjectName'</Resolution>
+   <Owner>Tools Group</Owner>
+   <Url>http://172.25.103.130/Pride/aspx/PrideDMSDownload.aspx?Docid=QSD-REF-7017</Url>
+   <Email>Tools Group@infosys.com</Email>
+   <MessageLevel Certainty="99">Warning</MessageLevel>
+   <File Name="customfxcoprules.dll" Version="1.0.0.0" />
+  </Rule>
+  <Rule TypeName="Prefix_Field" Category="Infosys.Design" CheckId="IN0064">
+   <Name>Do not include a prefix on a field name</Name>
+   <Description>Do not include a prefix on a field name, for example 'g_' or 's_'.</Description>
+   <Resolution Name="Default">Field names,'{0}', should not begin with names like 'g_' or 's_'</Resolution>
+   <Owner>Tools Group</Owner>
+   <Url>http://172.25.103.130/Pride/aspx/PrideDMSDownload.aspx?Docid=QSD-REF-7017</Url>
+   <Email>Tools_Deployment@infosys.com</Email>
+   <MessageLevel Certainty="99">Warning</MessageLevel>
+   <File Name="customfxcoprules.dll" Version="1.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LetsPortNowCommonMaster.master.cs" Inherits="LetsPortNowCommonMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<script type="text/javascript" language="javascript">
+    function CheckName(source, args) {
+        if (args.Value.length > 25)
+            args.IsValid = false;
+        else
+            args.IsValid = true;
+    }
+
+    function CheckPhone(source, args) {
+        if (args.Value.length != 10)
+            args.IsValid = false;
+        else
+            args.IsValid = true;
+    }
+   
+    function CheckAdd(source, args) {
+        if (args.Value.length > 50)
+            args.IsValid = false;
+        else
+            args.IsValid = true;
+    }
+
+    function CheckPassword(source, args) {
+        if (args.Value.length < 6)
+            args.IsValid = false;
+        else
+            args.IsValid = true;
+    }
+    
+    function CheckAddress(source, args) {
+        if (args.Value.length > 25)
+            args.IsValid = false;
+        else
+            args.IsValid = true;
+    }
+  
+    
+   
+
+</script>
+
+    <title></title>
+    <link href="App_Themes/LetsPortNowTheme/LetsPortNowStyleSheet.css" rel="stylesheet"
+        type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 200px;
+            height: 33px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="header">
+            
+            <div class="logout-container">
+                <table width="100%">
+                    <tr>
+                        <td>Welcome <asp:Label ID="lblName" runat="server" Text=""></asp:Label> !
+                            </td>
+                        <td class="right"><asp:Label ID="lblDate" runat="server" Text="" CssClass="right"></asp:Label></td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+            <div class="clear"></div>
+            <div class="logo">
+                <img alt="Logo" class="style1" src="Logo.png" /></div>
+
+            <%-- Tabs --%>
+        </div>
+        <div class="clear"></div>
+        <div class="middle-container">
+            <%--<asp:SiteMapPath ID="stmSiteMap" runat="server">
+            </asp:SiteMapPath>--%>
+            <asp:ContentPlaceHolder ID="cphMainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">Copyright of Infosys Ltd</div>
+    </div>
+    </form>
+</body>
+</html>
